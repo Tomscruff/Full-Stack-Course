@@ -4,153 +4,91 @@
 <!-- Welcome! This is primarily the website I'll be making as part of the Full Stack Developer course I'm doing on Udemy. I'm putting my own spin on it and with any luck as I improve I'll add enough unique stuff to it that I'll feel comfortable calling it my own instead of just copied from the course... whether I remember to edit this out remains to be seen!
 -T -->
 
-</ol>
-
 <head>
-
   <meta charset="utf-8">
-  <title>Welcome to me</title>
-  <style>
-    body {
-      background-color: lightcyan;
-    }
-
-    /*
-    hr {
-      background-color: white;
-      border: none;
-      border-style: dotted;
-      height: 1px;
-      width: 30%;
-    }
-    */
-
-    hr {
-      border: none;
-      border-top: 7px dotted coral;
-      height: 1px;
-      width: 5%;
-    }
-
-    /* Specifying a side of the border (border top) it will only show the top as long as the
-    rest of the dimensions/style aren't specified. */
-
-    img {}
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Balsamiq+Sans&family=Londrina+Shadow&family=Patua+One&family=Qwigley&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/coffee-cup.svg">
+  <title>Tom Dowbiggin: web developer?</title>
 </head>
 
-<body>
-  <table cellspacing=20>
-    <tr>
-      <td><img src="images/nasty_profile.png" alt="Very handsome man" width="300px" height="240px"></td>
-      <td>
-        <h1>Tom Dowbiggin - master of secrets</h1>
-        <i>Hello darkness my old friend</i>
-        <p>Lover of cats, coffee and
-          <a href="https://www.youtube.com/watch?v=5qap5aO4i9A">24/7 lofi beats to study/chill to.</a>
-        </p>
-      </td>
-    </tr>
-  </table>
+
+<div class="top-container">
+  <img src="images/cloud.png" class='top-cloud' alt="clouds innit">
+  <h1 class='intro_title'>I'm <span id="name">Tom Dowbiggin</span></h1>
+  <h2 id='intro_sub'>Lover of coding, coffee, cats and lofi beats to study/chill to</h2>
+  <img src="images/cloud.png" class='bottom-cloud' alt="clouds innit">
+  <img src="images/mountain.png" class="mountain" alt="sick mountains m8">
+</div>
 
 
-  <h3>Skills</h3>
-
-  <!-- This is how to get it so the skills and emojis show side by side on a two column table, if you're the kind of psychopath that feels like doing it this way.
-
-  <table>
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>HTML</td>
-            <td>😎😎😎</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>😎😎</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Python</td>
-            <td>😎😎😎</td>
-          </tr>
-          <tr>
-            <td>Javascript</td>
-            <td>😎</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-
-Man nested tables suck! At least it looks like a cool shape.
-She just said to delete this as well! I'm commenting it out because I spent like 20 minutes of my life on this that I'm never getting back. Reverting back to simpler version below for the sake of the exercises. -->
-
-  <table>
-    <tr>
-      <td>HTML</td>
-      <td>😎😎😎</td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>😎😎</td>
-    </tr>
-    <tr>
-      <td>Python</td>
-      <td>😎😎😎</td>
-    </tr>
-    <tr>
-      <td>Javascript</td>
-      <td>😎</td>
-    </tr>
-  </table>
-
-  <hr>
-  <br>
-
-  <h3>Work Experience</h3>
-  <table border="1px">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2016-2020</td>
-        <td>Second Line Expert - OVO Energy</td>
-      </tr>
-      <tr>
-        <td>2014-2016</td>
-        <td>Customer Care Expert - OVO Energy</td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-  <hr>
-  <br>
-  <h3>Study Resources</h3>
-  <p>
+<div class="navbar">
   <ul>
-    <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2020 Web Development Bootcamp</a> (Udemy)</li>
-    <li><a href="https://www.udemy.com/course/the-modern-python3-bootcamp/">The Modern Python 3 Bootcamp</a> (Udemy)</li>
-    <li><a href="https://www.udemy.com/course/the-web-developer-bootcamp/">The Web Developer Bootcamp 2020</a> (Udemy)</li>
-    <li><a href="https://tinyurl.com/y3jpbl5k">Learn Python the Hard Way</a> (textbook)</li>
-    <li><a href="https://tinyurl.com/yycwxzx9">Head First into HTML</a> (textbook)</li>
-    <li><a href="https://tinyurl.com/yxhhb8ro">Automate the Boring Stuff with Python</a> (ebook)</li>
+    <a href="index.html" alt=''>HOME</a>
+    <li>HOBBIES</li>
+    <li>BLOG</li>
+    <a href='contact.html'>CONTACT</a>
   </ul>
-  </p>
-
-  <h3><a href="hobbies.html"> My Hobbies </a></h3>
-  <h4><a href="contact.html"> Get in touch </a></h4>
+</div>
 
 
+<div class="middle-container">
+  <img src="images/nasty_profile.png" alt="it me" width='300px'>
+  <p>I'm an aspiring programmer currently studying web development and working in Energy Industry Operations.</p>
+  <br>
+  <hr>
+  <br>
+  <div class="skills">
 
-</body>
+    <h2>My Skills</h2>
+    <div class="skill-row">
+      <img class="" src="images/thinking.png" alt="problem_solving" height='200px'>
+      <h3>Problem Solving</h3>
+      <p> I love diagnosing and finding a way through problems, which is an integral part of my current job. There's nothing more satisfying to me than solving puzzles and learning new things. and I think enjoying that kind of mentality is what has
+        made me enjoy learning to code so much. </p>
+    </div>
+    <div class="skill-row">
+      <img class="" src="images/imagination.jpg" alt="" width='200px'>
+      <h3>Imagination</h3>
+      <p>As a graduate with a degree in Creative Writing, I have a vivid imagination and am usually daydreaming and coming up with ideas for all kinds of things. Web development has been a great outlet for my creativity, I love you how you can make
+        what you want from nothing but your imagination and a few lines of code.</p>
+    </div>
 
-</html>
+
+    <img src="images/coffee_desk.jpeg" alt="" width="400px">
+
+    <h2>Study Resources</h2>
+    <p>
+    <ul>
+      <li><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete 2020 Web Development Bootcamp</a> (Udemy)</li>
+      <li><a href="https://www.udemy.com/course/the-modern-python3-bootcamp/">The Modern Python 3 Bootcamp</a> (Udemy)</li>
+      <li><a href="https://www.udemy.com/course/the-web-developer-bootcamp/">The Web Developer Bootcamp 2020</a> (Udemy)</li>
+      <li><a href="https://tinyurl.com/y3jpbl5k">Learn Python the Hard Way</a> (textbook)</li>
+      <li><a href="https://tinyurl.com/yycwxzx9">Head First into HTML</a> (textbook)</li>
+      <li><a href="https://tinyurl.com/yxhhb8ro">Automate the Boring Stuff with Python</a> (ebook)</li>
+    </ul>
+    </p>
+
+    <div class="blog-post">
+      <h2>Latest blog post</h2>
+      <p>PENDING</p>
+    </div>
+
+  </div>
+  <hr>
+
+  <div class="contact-me">
+    <h3>Get in touch</h3>
+    <p>form here</p>
+    <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+  </div>
+</div>
+
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/in/tom-dowbiggin-28535089//">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.tomdowbiggin.me/">Website</a>
+  <p>© 2020 Tom Dowbiggin.</p>
+  <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+</div>
